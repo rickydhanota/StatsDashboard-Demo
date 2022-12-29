@@ -55,13 +55,19 @@ const Sidebar = (props) => {
     return (
         <Box 
         sx={{
-            "& .pro-sidebar-inner": {background: `${colors.primary[400]} !important`},
-            "& .pro-icon-wrapper": {backgroundColor: "transparent !important"},
-            "& .pro-inner-item": {padding: "5px 35px 5px 20px !important"},
-            "& .pro-inner-item:hover": {color: "#868dfb !important"} ,
-            "& .ps-menu-label:hover": {color: "#868dfb !important"} ,
-            "& .pro-menu-item.active": { color: "#6870fa !important"},
-            "& .ps-menu-label.active": { color: "#6870fa !important"},
+            // "& .pro-sidebar-inner": {background: `${colors.primary[400]} !important`},
+            // "& .MuiBox-root": {background: `${colors.primary[400]} !important`},
+            // "& .ps-menuitem-root": {background: `${colors.primary[400]} !important`},
+            "& .ps-menu-root": {background: `${colors.primary[400]} !important`},
+            // "& .pro-icon-wrapper": {backgroundColor: "transparent !important"},
+            // "& .ps-menuitem-root": {backgroundColor: "transparent !important"},
+            "& .MuiBox-root": {padding: "5px 10px 5px 10px !important"},
+            "& .ps-menu-button:hover": {color: "rgba(20, 27, 45, 1) !important"} ,
+            // "& .MuiSvgIcon-root:hover": {color: "#868dfb !important"} ,
+            // "& .pro-menu-item.active": { color: "#6870fa !important"},
+            "& .ps-active > a": { color: "rgba(20, 27, 45, 1) !important"},
+            // "& .ps-menu-button.active": { color: "#6870fa !important"},
+            "& .MuiSvgIcon-root.ps-active": { color: "rgba(20, 27, 45, 1) !important"},
         }}
         >
       <ProSidebarProvider collapsed={isCollapsed}>
