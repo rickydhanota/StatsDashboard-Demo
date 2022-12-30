@@ -1,4 +1,8 @@
 #Using the Data Grid from Material UI is super nice for laying out the grid or table
 #They have custom components to enable various filters and what not
 
-#Using formik for forms
+#Using formik for forms: https://formik.org/docs/overview#inst...
+#Using yup for validations: https://github.com/jquense/yup
+#Using Nivo charts: https://nivo.rocks/components
+# Using full calendar for the calendar functionality: https://fullcalendar.io/docs
+#Using react pro sidebar as well: https://github.com/azouaoui-med/react...
