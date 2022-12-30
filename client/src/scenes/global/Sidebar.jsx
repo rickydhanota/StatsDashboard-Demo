@@ -150,7 +150,7 @@ const Sidebar = (props) => {
 
                     {/* <Item title="Bar Chart" to="/bar" icon={<BarChartOutlinedIcon />} selected={selected} setSelected={setSelected}/> */}
                     <MenuItem active={selected === "Bar Chart"} style={{color: colors.grey[100],}} onClick={() => setSelected("Bar Chart")} icon={<BarChartOutlinedIcon />}>
-                      <Typography onClick={() => navigate("/bar")}>FAQ Page</Typography>
+                      <Typography onClick={() => navigate("/bar")}>Bar Chart</Typography>
                     </MenuItem>
 
                     {/* <Item title="Pie Chart" to="/pie" icon={<PieChartOutlinedIcon />} selected={selected} setSelected={setSelected}/> */}
